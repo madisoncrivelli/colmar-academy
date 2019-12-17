@@ -110,6 +110,9 @@ h3 {
     text-align: center;
     
 }
+.news {
+    display: flex;
+}
 .main-article {
     margin: 32px 24px;
     width: 60%;
@@ -124,4 +127,15 @@ h3 {
 }
 span {
     padding: 32px auto;
+}
+.sub-articles {
+    width: 40%;
+    background-color: lawngreen;
+    float: right;
+    margin: 16px 16px;
+}
+.img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
 }
