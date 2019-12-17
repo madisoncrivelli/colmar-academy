@@ -72,3 +72,41 @@ nav a::before {
 nav a:hover::before {
     width: 100%;
 }
+.banner {
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner-img {
+    padding: 32px 24px;
+    width: 60%;
+}
+.pannel {
+    width: 30%;
+    margin: 0 auto;
+    height: 500px;
+    align-items: flex-start;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+
+
+}
+h1 {
+    font-size: 58px;
+}
+h3 {
+    font-size: 24px;
+}
+.buttom {
+    background-color: darkslategrey;
+    padding:8px auto;
+    width: 75%;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    
+}
