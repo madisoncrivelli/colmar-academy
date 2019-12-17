@@ -9,8 +9,8 @@ body {
     margin: 0 auto;
 }
 header {
-    background-color: aqua;
     display: block;
+    
 
 }
 .logo {
@@ -109,4 +109,19 @@ h3 {
     font-size: 26px;
     text-align: center;
     
+}
+.practicing {
+    margin: 32px 24px;
+    width: 60%;
+
+}
+.practicing-img {
+    width: 100%;
+    height: auto;
+}
+.practicing h1 h3 {
+    width: inherit;
+}
+span {
+    padding: 32px auto;
 }
