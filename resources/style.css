@@ -220,3 +220,30 @@ span {
 .subject {
     padding: 16px 16px 16px 16px;
 }
+.news2 h1 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    width: 100%;
+}
+.thesis-article-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+.thesis-article-container .main-article {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.news2 {
+    width: 100%;
+    height: auto;
+
+}
+.title {
+    text-align: center;
+}
+.news2 .main-article {
+    padding-bottom: 32px;
+}
