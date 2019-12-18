@@ -177,12 +177,8 @@ span {
     padding-left: 72px;
     padding-right: 72px;
     padding-bottom: 32px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     
-    
-   
+
 }
 .learning-container h1 {
     text-align: center;
@@ -203,12 +199,17 @@ span {
     
   
 }
-
+.box-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .box {
     background-color: white;
     width: fit-content;
-    
-  
+    margin: 16px;
+     
  
     
 }
