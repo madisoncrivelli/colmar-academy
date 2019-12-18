@@ -170,3 +170,52 @@ span {
 .preview {
     font-size: 16px;
 }
+.learning-container {
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+   
+}
+.learning-container h1 {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+}
+.box h2 {
+    font-size: 26px;
+}
+.box p {
+    font-size: 18px;
+    line-height: 35px;
+    vertical-align: middle;
+    margin-left: 16px;
+    position: relative;
+    padding-bottom: 24px;
+    
+  
+}
+
+.box {
+    background-color: white;
+    width: fit-content;
+    
+  
+ 
+    
+}
+.box-img {
+    height: auto;
+    width: auto;
+}
+.subject {
+    padding: 16px 16px 16px 16px;
+}
