@@ -40,6 +40,7 @@ nav li {
     display: inline-block;
     margin-left: 24px;
     position: relative;
+  
 
 
 }
@@ -246,4 +247,24 @@ span {
 }
 .news2 .main-article {
     padding-bottom: 32px;
+}
+.terms {
+    list-style-type: none;
+    display: flex;
+   
+}
+li {
+    display: block;
+    padding: 16px;
+
+}
+.copyright {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 16px;
+
+}
+.fa-copyright h6 {
+    float: left;
 }
