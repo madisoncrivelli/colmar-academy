@@ -130,12 +130,43 @@ span {
 }
 .sub-articles {
     width: 40%;
-    background-color: lawngreen;
     float: right;
     margin: 16px 16px;
+    position: relative;
 }
 .img {
     width: 35%;
     height: auto;
     margin: 16px;
+}
+.sub {
+    flex: 1;
+    flex-basis:25%;
+    display: flex;
+    position: relative;
+
+}
+.article {
+    align-items: flex-end;
+    display: block;
+    
+   
+}
+.times {
+    font-size: 8px;
+}
+.article, a {
+    position: absolute ;
+    bottom: 20%;
+    left: 40%;
+    color: royalblue;
+    
+}
+#topic {
+    font-size: 36px;
+    display: block;
+    padding-top: 18%;
+}
+.preview {
+    font-size: 16px;
 }
