@@ -23,6 +23,7 @@ header {
 }
 nav {
     float: right;
+
 }
 header::after {
     content: '';
@@ -34,12 +35,15 @@ nav ul {
     padding: 0;
     list-style-type: none;
     color: black;
+   
 
 }
 nav li {
     display: inline-block;
     margin-left: 24px;
     position: relative;
+    padding: 42px;
+    margin: 16px;
   
 
 
